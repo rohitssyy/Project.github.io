@@ -1,0 +1,156 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.hero{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),(0,0,0,0.6)), url();
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo{
+    color: rgb(26, 116, 194);
+    font-size: 28px;
+}
+span{
+    color: brown;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(172, 163, 163);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: brown;
+    transition: 0.3s;
+}
+
+button{
+    border: none;
+    background: brown;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+table , tr , td , h1 , h2 , p , li ,hr{
+    margin: 10px;
+    padding: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+
+
+
+.tab1 ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+  }
+  
+.tab1 li {
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+  }
+
+  h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  h1:hover, h2:hover, h3:hover{
+    color: #0961d4; /* change color to your liking */
+  }
+  
+
+ /* This is Footer Section */
+footer{
+    background: black;
+    height:auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: azure;
+
+}
+.footercont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;  
+}
+
+.footercont h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footercont p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+
+.footercont copyright{
+   
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footercont  span{
+ 
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200;
+
+}

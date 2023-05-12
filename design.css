@@ -1,0 +1,25 @@
+*{
+    
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+ }
+ 
+ body{
+    background: url("images/thinker11.jpg") cover;
+ }
+ 
+   h1, h2, h3 {
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: color 0.3s ease-in-out;
+   }
+   
+   h1:hover, h2:hover, h3:hover{
+     color: #ee8206; /* change color to your liking */
+   }
+   
+
+ 
